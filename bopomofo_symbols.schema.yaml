@@ -52,6 +52,7 @@ translator:
   dictionary: bopomofo_symbols
   spelling_hints: 10
   prism: bopomofo_symbols
+  enable_user_dict: false
 
 punctuator:
   import_preset: default
