@@ -1,0 +1,184 @@
+# Rime schema
+# encoding: utf-8
+#
+# Delton Ding <dsh0416@gmail.com>
+#
+# 注音符號
+#
+
+---
+name: bopomofo_symbols
+version: "2018.10.4"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+# 注音符號
+## 聲母
+ㄅ	b
+ㄆ	p
+ㄇ	m
+ㄈ	f
+
+ㄉ	d
+ㄊ	t
+ㄋ	n
+ㄌ	l
+
+ㄍ	g
+ㄎ	k
+ㄏ	h
+
+ㄐ	j
+ㄑ	q
+ㄒ	x
+
+ㄓ	zh
+ㄔ	ch
+ㄕ	sh
+ㄖ	r
+
+ㄗ	z
+ㄘ	c
+ㄙ	s
+
+## 介音
+ㄧ	i
+丨	i	95%
+ㄨ	u
+ㄩ	v
+
+## 韻母
+ㄚ	a
+ㄛ	o
+ㄜ	e
+ㄧㄝ	ie
+丨ㄝ	ie	95%
+
+ㄞ	ai
+ㄟ	ei
+ㄠ	ao
+ㄡ	ou
+
+ㄢ	an
+ㄣ	en
+ㄤ	ang
+ㄥ	eng
+
+ㄦ	er
+
+# 整體音節音變
+
+ㄓ	zhi
+ㄔ	chi
+ㄕ	shi
+ㄖ	ri
+ㄗ	zi
+ㄘ	ci
+ㄙ	si
+
+# 組合韻母音變
+
+ㄧㄡ	you
+丨ㄡ	you	95%
+ㄧㄡ	iu
+丨ㄡ	iu	95%
+ㄨㄟ	wei
+ㄨㄟ	ui
+ㄨㄣ	wen
+ㄨㄣ	un
+ㄧㄢ	yan
+丨ㄢ	yan	95%
+ㄧㄢ	ian
+丨ㄢ	ian	95%
+ㄩㄢ	yuan
+ㄩㄢ	uan
+ㄧㄣ	yin
+丨ㄣ	you	95%
+ㄧㄣ	in
+丨ㄣ	in	95%
+ㄩㄣ	yun
+ㄩㄣ	un
+ㄧㄥ	ying
+丨ㄥ	ying	95%
+ㄧㄥ	ing
+丨ㄥ	ing	95%
+ㄨㄥ	weng
+ㄨㄥ	ong
+ㄩㄥ	yong
+ㄩㄥ	iong
+
+# 方音符號
+## 聲母
+
+ㄅ	p	90%
+ㆠ	b	90%
+ㄆ	ph	90%
+# ㄇ
+# ㄉ
+ㄊ	th	90%
+# ㄋ
+ㄌ	t	90%
+ㄍ	k	90%
+ㆣ	g	90%
+ㄎ	kh	90%
+ㄫ	ng	90%
+# ㄏ
+ㄐ	chi	90%
+ㄐ	tsi	80%
+ㆢ	ji	90%
+ㄑ	chhi	90%
+ㄑ	tshi	80%
+ㄒ	si	90%
+ㄗ	ch	90%
+ㄗ	ts	80%
+ㆡ	j	90%
+ㄘ	chh	90%
+ㄘ	tsh	80%
+# ㄙ
+
+# 介母和韻母
+
+# ㄚ	a	90%
+ㆩ	e	90%
+ㆦ	oo	90%
+ㆧ	oon	90%
+# ㄜ	o	90%
+ㆤ	e	90%
+ㆥ	enn	90%
+# ㄞ	ai	90%
+ㆮ	ainn	90%
+ㄠ	au	90%
+ㆯ	aunn	90%
+ㆰ	am	90%
+ㆱ	om	90%
+ㆬ	m	90%
+# ㄢ	an	90%
+# ㄣ	n	90%
+# ㄤ	ang	90%
+ㆲ	ong	90%
+ㄥ	ng	90%
+ㆭ	ng	90%
+# ㄧ	i	90%
+ㆪ	inn	90%
+ㆳ	inn 85%
+# ㄨ	u	90%
+ㆫ	unn	90%
+
+# 特殊情況
+
+ㄧㄚㄉ	iat
+丨ㄚㄉ	iat	95%
+ㄧㄍ	ik
+丨ㄍ	ik	95%
+
+## 音調標記
+
+ˉ	/	100%
+ˊ	/	90%
+ˇ	/	80%
+ˋ	/	70%
+˙	/	60%
+˪	/	50%
+˫	/	40%
+̇	/	30%

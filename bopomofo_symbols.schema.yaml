@@ -1,0 +1,65 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: bopomofo_symbols
+  name: 注音符號
+  version: "2018.10.4"
+  author:
+    - Delton Ding <dsh0416@gmail.com>
+  description: |
+    注音符號及臺灣方音符號輸入
+    注音符號以漢語拼音輸入爲主
+    方音符號以白話字、台羅拼音輸入爲主
+    重疊部分按漢語拼音、白話字、台羅拼音的優先級排序
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [注音, 西文]
+  - name: half_shape
+    reset: 0
+    states: [半角, 全角]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz/'
+  delimiter: " '"
+  algebra: []
+
+translator:
+  dictionary: bopomofo_symbols
+  spelling_hints: 10
+  prism: bopomofo_symbols
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
