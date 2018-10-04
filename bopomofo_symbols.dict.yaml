@@ -68,7 +68,6 @@ use_preset_vocabulary: false
 ㄦ	er
 
 # 整體音節音變
-
 ㄓ	zhi
 ㄔ	chi
 ㄕ	shi
@@ -78,7 +77,6 @@ use_preset_vocabulary: false
 ㄙ	si
 
 # 組合韻母音變
-
 ㄧㄡ	you
 丨ㄡ	you	95%
 ㄧㄡ	iu
@@ -110,7 +108,6 @@ use_preset_vocabulary: false
 
 # 方音符號
 ## 聲母
-
 ㄅ	p	90%
 ㆠ	b	90%
 ㄆ	ph	90%
@@ -138,7 +135,6 @@ use_preset_vocabulary: false
 # ㄙ
 
 # 介母和韻母
-
 # ㄚ	a	90%
 ㆩ	e	90%
 ㆦ	oo	90%
@@ -166,14 +162,12 @@ use_preset_vocabulary: false
 ㆫ	unn	90%
 
 # 特殊情況
-
 ㄧㄚㄉ	iat
 丨ㄚㄉ	iat	95%
 ㄧㄍ	ik
 丨ㄍ	ik	95%
 
 ## 音調標記
-
 ˉ	/	100%
 ˊ	/	90%
 ˇ	/	80%
