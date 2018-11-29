@@ -20,7 +20,7 @@
 ```bash
 git clone https://github.com/dsh0416/rime-bopomofo-symbols.git
 cd rime-bopomofo-symbols
-ln -s ./bopomofo_symbols.* THE_DIRECTORY_OF_YOUR_HIME_LIBRARY
+ln -s ./bopomofo_symbols.* THE_DIRECTORY_OF_YOUR_RIME_LIBRARY
 ```
 
 ### 載入
