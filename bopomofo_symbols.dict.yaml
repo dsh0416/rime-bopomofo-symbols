@@ -8,7 +8,7 @@
 
 ---
 name: bopomofo_symbols
-version: "2018.10.4"
+version: "2019.12.8"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -89,6 +89,7 @@ use_preset_vocabulary: false
 丨ㄢ	yan	95%
 ㄧㄢ	ian
 丨ㄢ	ian	95%
+ㄧㄤ	iang
 ㄩㄢ	yuan
 ㄩㄢ	uan
 ㄧㄣ	yin
